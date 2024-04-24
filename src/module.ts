@@ -29,7 +29,7 @@ export default defineNuxtModule<ModuleOptions>({
 
         addImports({
            name: "defineRewriteRouter",
-           from: resolver.resolve("runtime/utils.ts")
+           from: resolver.resolve("./runtime/utils")
         });
     }
 });
