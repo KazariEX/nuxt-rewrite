@@ -1,8 +1,16 @@
 # Changelog
 
+## v0.1.1
+
+### 🩹 Fixes
+
+- 修复自动导入的路径问题 ([e39dff9](https://github.com/KazariEX/nuxt-rewrite/commit/e39dff9))
+
+### ❤️ Contributors
+
+- KazariEX <1364035137@qq.com>
 
 ## v0.1.0
-
 
 ### 🚀 Enhancements
 
@@ -11,4 +19,3 @@
 ### ❤️ Contributors
 
 - KazariEX <1364035137@qq.com>
-
