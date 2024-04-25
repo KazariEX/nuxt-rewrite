@@ -38,6 +38,20 @@ export default defineNuxtConfig({
 
 - ``suffix``: An arbitrary string, like "php".
 
+## Tips
+
+If you want ``definePageMeta`` to take effect, please add the following option in ``nuxt.config.ts``:
+
+```ts
+export default defineNuxtConfig({
+  experimental: {
+    scanPageMeta: true
+  }
+});
+```
+
+``experimental.typedPages`` also has the same effect, but it has other uses.
+
 ## Utils
 
 ### ``defineRewriteRouter``
